@@ -1,0 +1,21 @@
+{
+    "endPoints": [
+        {
+            "name": "backend-identity-v3",
+            "url": "http://localhost:4002/swagger/v3/swagger.json",
+            "language": "csharp",
+            "packageName": "dastan",
+            "moves": [
+                {
+                    "from": "./src/dastan/api/",
+                    "to": "./dastan"
+                },
+                {
+                    "from": "./src/dastan/Model/TokenResult.cs",
+                    "to": "./dastan/models"
+                }
+            ],
+            "deleteTempFolder": true
+        }
+    ]
+}

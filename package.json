@@ -1,0 +1,26 @@
+{
+  "name": "swagger-version-tag",
+  "version": "0.0.0",
+  "description": "Generate a tag for each swagger endpoints",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miladbonakdar/swagger-version-tag.git"
+  },
+  "author": "milad bonakdar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miladbonakdar/swagger-version-tag/issues"
+  },
+  "homepage": "https://github.com/miladbonakdar/swagger-version-tag#readme",
+  "bin": "./bin.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0",
+    "shelljs": "^0.8.4"
+  }
+}
